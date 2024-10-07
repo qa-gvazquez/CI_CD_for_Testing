@@ -47,6 +47,8 @@ git status
 rm -rf .git
 ls -al
 git status
+
+git clone https://github.com/qa-gvazquez/CI_CD_for_Testing.git
 ```
 
 ### Jenkins 101
