@@ -23,6 +23,32 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-homebrew
 
 <summary>Instalar los paquetes necesarios para el curso</summary>
 
+### Visual Studio Code
+
+On the newly created Homebrew terminal, install **VSC IDE** with the command:
+
+```
+brew install visual-studio-code
+```
+
+### Git 101
+
+On the newly created Homebrew terminal, install **Git** with the command:
+```
+  brew install git
+```
+
+Open a Terminal inside VSC, and change Global Settings to re-name any future Branch to **main**.
+
+```
+git config --global init.defaultBranch main
+git init
+git status
+rm -rf .git
+ls -al
+git status
+```
+
 ### Jenkins 101
 
 En construcción.
